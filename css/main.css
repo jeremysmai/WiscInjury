@@ -1,40 +1,50 @@
 /* Wisconsin Injury Network CSS
-   2022 - JD _ v0.0 */
+   2022 - JD _ v0.0
+   _Color-Theme_
+   Logo: #9bc4e2
+   */
 
 html {
 
 }
 
 a:link {
-
+  color: white;
 }
 
 a:visited {
-
+  color: white;
 }
 
-a:hover{
-
+.menu {
+  overflow: hidden;
+  background-color: #9bc4e2;
 }
 
-navigation {
-
+.menu a {
+  display: inline-block;
+  float: right;
+  text-align: center;
+  padding: 15px 15px;
+  color: white;
 }
 
-.menu{
-
+.menu a:hover {
+  background-color: white;
+  color: #9bc4e2;
 }
 
-.menu:hover {
-
+.banner {
+  background-color: white;
+  padding: 30px;
 }
 
 body {
-
+  
 }
 
 h1 {
-
+  color: #9bc4e2;
 }
 
 h2 {
@@ -46,5 +56,5 @@ h3 {
 }
 
 footer {
-  
+  text-align: center;
 }
