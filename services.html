@@ -13,22 +13,6 @@
     <!-- Mobile Site Fix BB -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="Wisconsin Injury Network Website">
-      <script>
-      var acc = document.getElementsByClassName("services");
-      var i;
-
-      for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-          this.classList.toggle("active");
-          var panel = this.nextElementSibling;
-          if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-          } else {
-            panel.style.maxHeight = panel.scrollHeight + "px";
-          }
-        });
-      }
-  </script>
 </head>
 <header id="banner"><a href="index.html"><img src="images/Shield-03.png" height="25%" width="25%"/></header>
 <body>
@@ -39,39 +23,97 @@
     <li><a href="workcomp.html">WorkComp</a></li>
     <li><a href="services.html">Services</a></li>
   </ul>
+  <h1>Services</h1>
     <center>
-  <p>Our network is proud to have a variety of providers covering many services including:</p>
-    <button class="services">Rehabilitation</button>
-     <div class="panel"> - Whether it's chiropractic care of physical therapy, our rehabilitation specialists will get you whole as quick as possible.</div>
-    <button class="services">Chiropractic Care</button>
-     <div class="panel"> - With a focus on joint pain and backs, our Chiropractors will ease your suffering and give you the tools you need to get through your day.</div>
-    <button class="services">Physical Therapy</button>
-     <div class="panel"> - While similar to Chiropractors, our Physical Therapists will help you get your mobility back to where it should be as quickly as possible.</div>
-    <button class="services">Imaging and Radiology</button>
-     <div class="panel"> - Diagnostic imaging includes anything from x-rays to CT scans to MRIs and is a great initial step in a treatment plan. Accurate imaging of your injury assists our physicians in directing your care appropriately.</div>
-    <button class="services">Internal Medicine</button>
-     <div class="panel"> - Whether you want an outside party to follow your care and act as your quarterback or if you need help getting cleared for surgery, we have you covered</div>
-    <button class="services">Pain Management</button>
-     <div class="panel"> - Pain Management specialists will help get an appropriate diagnosis and treatment plan set up for you. Their skills will allow for assistance in managing your pain as well as utilizing conservative treatment options to promote healing.</div>
-    <button class="services">Podiatry</button>
-     <div class="panel"> - Your feet and ankles are some of the hardest working parts of your body, supporting your entire body all day. Only trust a true specialist with them</div>
-    <button class="services">Orthopedic Surgeons</button>
-     <div class="panel"> - Our orthopedic surgeons are some of the best in the state. Their level of skill will help ensure as quick of a recovery as possible and minimize any pain or discomfort you would experience</div>
-    <button class="services">Anesthesia</button>
-     <div class="panel"> - Anesthesia is typically just yet another group you have to talk with and figure out. We have a reliable, consistent group of anesthesiologists that our surgeons work with regularly</div>
-    <button class="services">Pharmacies</button>
-     <div class="panel"> - Sometimes it's hard to afford your medications while you're off work. Our pharmacies will mail your medicine to your front door with no cost to you!</div>
-    <button class="services">Accredited Surgical Centers</button>
-     <div class="panel"> - Our surgical centers are well staffed and accreddited to the highest standard including the rigorous requirements of medicare. Please be aware, some procedures do require the facilities only available in a hospital setting.</div>
-    <button class="services">Spine Specialists</button>
-     <div class="panel"> - While always a last resort, if you need a consultation to see if surgery is right for you, we're proud to have some premier spine surgeons on your side.</div>
-     <button class="services">Transportation</button>
-     <div class="panel"> - If you have difficulties getting to and from your medical appointments as a result of your injury, we can assist in arranging transportation services at no direct cost to you.</div>
-    <button class="services">Attorneys</button>
-     <div class="panel"> - After an accident, choosing an attorney to represent you can be overwhelming. It can be difficult to find someone that you trust to handle your case appropriately. We only work with attorneys that have a record of the communication skills, ability, and experience required to truly help their clients. When you call us, we can set up a free consultation for you with one or more of our attorneys to ensure that you find the best attorney for you.</div>
+  <h2>Our network is proud to have a variety of providers covering many services including:</h2>
+    <button class="servicelist">Rehabilitation</button>
+     <div class="panel">
+       <p>  Whether it's chiropractic care of physical therapy, our rehabilitation specialists will get you whole as quick as possible.
+       </p></div>
+    <button class="servicelist">Chiropractic Care</button>
+     <div class="panel">
+       <p>  With a focus on joint pain and backs, our Chiropractors will ease your suffering and give you the tools you need to get through your day.
+       </p></div>
+    <button class="servicelist">Physical Therapy</button>
+     <div class="panel">
+       <p>  While similar to Chiropractors, our Physical Therapists will help you get your mobility back to where it should be as quickly as possible.
+       </p></div>
+    <button class="servicelist">Imaging and Radiology</button>
+     <div class="panel">
+       <p>  Diagnostic imaging includes anything from x-rays to CT scans to MRIs and is a great initial step in a treatment plan.
+          Accurate imaging of your injury assists our physicians in directing your care appropriately.
+        </p></div>
+    <button class="servicelist">Internal Medicine</button>
+     <div class="panel">
+       <p>  Whether you want an outside party to follow your care and act as your quarterback or if you need help getting cleared for surgery,
+         we have you covered
+       </p></div>
+    <button class="servicelist">Pain Management</button>
+     <div class="panel">
+       <p>  Pain Management specialists will help get an appropriate diagnosis and treatment plan set up for you.
+          Their skills will allow for assistance in managing your pain as well as utilizing conservative treatment options to promote healing.
+        </p></div>
+    <button class="servicelist">Podiatry</button>
+     <div class="panel">
+       <p>  Your feet and ankles are some of the hardest working parts of your body,
+         supporting your entire body all day. Only trust a true specialist with them
+       </p></div>
+    <button class="servicelist">Orthopedic Surgeons</button>
+     <div class="panel">
+       <p>  Our orthopedic surgeons are some of the best in the state.
+         Their level of skill will help ensure as quick of a recovery as possible and minimize any pain or discomfort you would experience
+       </p></div>
+    <button class="servicelist">Anesthesia</button>
+     <div class="panel">
+       <p>  Anesthesia is typically just yet another group you have to talk with and figure out.
+         We have a reliable, consistent group of anesthesiologists that our surgeons work with regularly
+       </p></div>
+    <button class="servicelist">Pharmacies</button>
+     <div class="panel">
+       <p>  Sometimes it's hard to afford your medications while you're off work. Our pharmacies will mail your medicine to your front door with no cost to you!
+       </p></div>
+    <button class="servicelist">Accredited Surgical Centers</button>
+     <div class="panel">
+       <p>  Our surgical centers are well staffed and accreddited to the highest standard including
+         the rigorous requirements of medicare. Please be aware, some procedures do require the facilities only available in a hospital setting.
+       </p></div>
+    <button class="servicelist">Spine Specialists</button>
+     <div class="panel">
+       <p>  While always a last resort, if you need a consultation to see if surgery is right for you,
+          we're proud to have some premier spine surgeons on your side.</p></div>
+     <button class="servicelist">Transportation</button>
+     <div class="panel">
+       <p>  If you have difficulties getting to and from your medical appointments as a result of your injury,
+         we can assist in arranging transportation services at no direct cost to you.
+       </p></div>
+    <button class="servicelist">Attorneys</button>
+     <div class="panel">
+       <p>  After an accident, choosing an attorney to represent you can be overwhelming.
+         It can be difficult to find someone that you trust to handle your case appropriately.
+         We only work with attorneys that have a record of the communication skills, ability, and experience required to truly help their clients.
+         When you call us, we can set up a free consultation for you with one or more of our attorneys to ensure that you find the best attorney for you.
+       </p></div>
 
-     <p>If you have difficulties making it to your appointments due to your condition, we will assist in arranging transportation services for you at no direct cost to you.</p>
+     <h2>If you have difficulties making it to your appointments due to your condition, <br>
+       we will assist in arranging transportation services for you at no direct cost to you.</h2>
+     <br>
   </center>
+  <script>
+  var acc = document.getElementsByClassName("servicelist");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  }
+</script>
   </body>
 
   <footer>Wisconsin Injury Network 2022</footer>

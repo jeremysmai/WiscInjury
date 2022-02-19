@@ -1,4 +1,4 @@
-var acc = document.getElementsByClassName("services");
+var acc = document.getElementsByClassName("servicelist");
 var i;
 
 for (i = 0; i < acc.length; i++) {
