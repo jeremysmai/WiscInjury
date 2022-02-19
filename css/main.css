@@ -35,6 +35,8 @@ li a:hover {
 .banner {
   background-color: white;
   padding: 30px;
+  display: flex;
+  color: #9bc4e2;
 }
 
 body {
@@ -61,9 +63,9 @@ body {
 h1 {
   color: #9bc4e2;
   font-size: 30px;
-  width: 50%;
   margin: auto;
   padding: 20px;
+  width: 50%;
 }
 
 h2 {
@@ -78,6 +80,8 @@ h3 {
 
 p {
   font-size: 15px;
+  text-indent: 20px;
+  margin: auto;
 }
 
 form {
@@ -85,12 +89,12 @@ form {
 }
 
 .contact-btn {
-  font-size: 15px;
+  font-size: 14px;
   border: 1px solid ghostwhite;
   color: white;
   background-color: #9bc4e2;
-  padding: 16px 32px;
-  margin: 4px 2px;
+  padding: 10px 20px;
+  margin: 4px 4px;
 }
 
 .contact-btn:hover {
