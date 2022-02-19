@@ -13,7 +13,22 @@
     <!-- Mobile Site Fix BB -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="Wisconsin Injury Network Website">
-      <script src="scripts/accordion.js"></script>
+      <script>
+      var acc = document.getElementsByClassName("services");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+      }
+  </script>
 </head>
 <header id="banner"><a href="index.html"><img src="images/Shield-03.png" height="25%" width="25%"/></header>
 <body>
