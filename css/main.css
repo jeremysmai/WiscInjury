@@ -97,6 +97,7 @@ p {
 .vl {
   border-left: 3px solid #9bc4e2;
   height: 325px;
+  margin-left: 15px;
 }
 
 hr {
@@ -112,12 +113,16 @@ form {
   padding: 15px;
 }
 
+button {
+  width: 120px;
+}
+
 .contact-btn {
   font-size: 14px;
   border: 1px solid ghostwhite;
   color: white;
   background-color: #9bc4e2;
-  padding: 10px 20px;
+  padding: 10px 10px;
   margin: auto;
 }
 
@@ -133,11 +138,20 @@ form {
 }
 
 .contact-btns {
-  padding-left: 10px;
-  padding-bottom: 5px;
-  margin: auto;
+  margin-left: 25px;
+  padding: 25px 25px;
+  background-color: ghostwhite;
   display: block;
-  float: right;
+}
+
+.contact-btns a {
+  color: #9bc4e2;
+}
+
+.contact-ft {
+  font-size: 12px;
+  margin-top: 30px;
+  line-height: 30px;
 }
 
 .servicelist {
