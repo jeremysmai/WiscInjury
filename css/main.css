@@ -4,8 +4,11 @@
    Logo: #9bc4e2
    */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap');
+
 html {
   background-color: ghostwhite;
+  font-family: 'Roboto Serif', sans-serif;
 }
 
 ul {
@@ -46,10 +49,11 @@ body {
 }
 
 .about {
-  padding-left: 50px;
-  padding-bottom: 50px;
-  width: 50%;
+  padding: 30px;
+  width: 45%;
+  text-align: left;
   margin: auto;
+  background-color: ghostwhite;
 }
 
 .banner {
@@ -60,7 +64,6 @@ body {
 }
 
 .contact {
-  padding-left: 50px;
   padding-bottom: 50px;
   padding-top: 30px;
   width: 50%;
@@ -71,9 +74,6 @@ body {
 h1 {
   color: #9bc4e2;
   font-size: 30px;
-  margin: auto;
-  padding: 20px;
-  width: 50%;
 }
 
 h2 {
@@ -90,10 +90,24 @@ p {
   font-size: 15px;
   text-indent: 20px;
   margin: auto;
+  word-wrap: normal;
+}
+
+.vl {
+  border-left: 3px solid #9bc4e2;
+  height: 300px;
+}
+
+hr {
+  height: 4px solid;
+  width: 50%;
+  color: #9bc4e2;
+  margin-top: 30px;
+  margin-bottom: 5px;
 }
 
 form {
-  padding: 5px;
+  padding: 10px;
 }
 
 .contact-btn {
@@ -102,7 +116,7 @@ form {
   color: white;
   background-color: #9bc4e2;
   padding: 10px 20px;
-  margin: 4px 4px;
+  margin: auto;
 }
 
 .contact-btn:hover {
@@ -117,9 +131,8 @@ form {
 }
 
 .contact-btns {
-  padding-left: 50px;
-  padding-bottom: 50px;
-  width: 50%;
+  padding-left: 10px;
+  padding-bottom: 5px;
   margin: auto;
   display: block;
   float: right;
