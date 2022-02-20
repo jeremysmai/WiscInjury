@@ -7,8 +7,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap');
 
 html {
-  background-color: ghostwhite;
+  background: linear-gradient(ghostwhite,lightsteelblue);
   font-family: 'Roboto Serif', sans-serif;
+  padding: 10px 30px;
 }
 
 ul {
@@ -186,4 +187,5 @@ footer {
   text-shadow: 0 0 2px white;
   background-color: ghostwhite;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
