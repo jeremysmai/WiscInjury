@@ -8,8 +8,10 @@
 
 html {
   background: linear-gradient(ghostwhite,lightsteelblue);
+  background-position: center;
+  background-attachment: fixed;
   font-family: 'Roboto Serif', sans-serif;
-  padding: 10px 30px;
+  padding: 10px;
 }
 
 ul {
