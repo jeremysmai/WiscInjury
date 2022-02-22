@@ -11,7 +11,7 @@ html {
   background-position: center;
   background-attachment: fixed;
   font-family: 'Roboto Serif', sans-serif;
-  padding: 10px;
+  padding: 15px;
 }
 
 ul {
@@ -47,13 +47,11 @@ li a:hover {
 }
 
 body {
-  width: auto;
   background-color: white;
 }
 
 .about {
   padding: 30px;
-  width: 45%;
   text-align: left;
   margin: auto;
   background-color: ghostwhite;
@@ -68,10 +66,11 @@ body {
 
 .contact {
   padding-bottom: 50px;
+  padding-left: 5%;
   padding-top: 30px;
-  width: 50%;
-  margin: auto;
   display: flex;
+  margin: auto;
+  text-align: left;
 }
 
 h1 {
@@ -112,7 +111,11 @@ hr {
 }
 
 form {
+  display: block;
+  align-self: center;
   padding: 15px;
+  max-width: 250px;
+  background-color: ghostwhite;
 }
 
 button {
@@ -148,6 +151,22 @@ button {
 
 .contact-btns a {
   color: #9bc4e2;
+}
+
+input[type=submit] {
+  background-color: #9bc4e2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: #9bc4e2;
+  border: 1px solid #9bc4e2;
 }
 
 .contact-ft {
