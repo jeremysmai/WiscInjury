@@ -52,7 +52,7 @@ body {
 }
 
 div {
-  display: inline-block;
+  display: block;
 }
 
 .about {
@@ -211,10 +211,11 @@ input[type=submit]:hover {
 }
 
 .panel {
-  padding: 0 18px;
+  padding: 0px 18px;
   background-color: ghostwhite;
   max-height: 0;
   overflow: hidden;
+  margin-bottom: 5px;
   max-width: 45%;
   transition: max-height 0.2s ease-out;
 }
