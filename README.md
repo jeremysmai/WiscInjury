@@ -10,7 +10,7 @@
 - [ ] Create banner image that rotates after 10s - classy
 - [ ] Create Favicon.png 32x32px
 - [ ] Finalize Contact Buttons - separate address and phone number
-- [ ] Add some filler space on all pages, pics?
+- [ ] Add some filler space on all pages, banners
 - [ ] Make contact form functional, use PHP on bluehost server
 - [ ] Finalize .cpanel.yml document for server deployment
 

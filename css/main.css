@@ -62,6 +62,13 @@ div {
   background-color: ghostwhite;
 }
 
+.services {
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+  background-color: ghostwhite;
+}
+
 .banner {
   background-color: white;
   padding: 30px;
