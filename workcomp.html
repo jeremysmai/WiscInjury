@@ -36,29 +36,41 @@
   </p>
   </div>
   <hr>
-  <div class="contact">
-    <form><h1>Contact</h1>
-      First Name:<br>
-      <input type="text" id="fname" name="fname" value="First"><br><br>
-      Last Name: <br>
-      <input type="text" id="lname" name="lname" value="Last"><br><br>
-      Email: <br>
-      <input type="text" id="email" name="email" value="Email"><br><br>
-      <textarea name="comment" rows="5" cols="30" placeholder="Message"></textarea><br>
-      <input type="submit" value="Send">
-    </form>
-    <div class="vl"></div>
-    <div class="contact-btns">
-      <a href="https://twitter.com/wi_injurynetwrk"><button class="contact-btn"><i class="fa-brands fa-twitter"></i> Twitter</button></a><br>
-      <a href=""><button class="contact-btn"><i class="fa-brands fa-instagram"></i> Instagram</button></a><br>
-      <a href=""><button class="contact-btn"><i class="fa-brands fa-facebook"></i> Facebook</button></a><br>
-    <div class="contact-ft">
-      <a href="mailto:info@wiscinjury.com"><i class="fa-solid fa-envelope"></i> info@wiscinjury.com</a><br>
-      <a href="tel:414-458-3884"><i class="fa-solid fa-phone"></i> 414-458-3884 </a><br>
-      4359 S Howell Ave <br>
-       Milwaukee, WI 53207 Suite 202 <br>
-    </div>
-  </div>
+  <div class="container">
+      <div class="contact-info">
+          <form action="">
+              <h3>Message Us</h3>
+              <input type="text" name="fullname" id="fullname" placeholder="Full Name" required>
+              <input type="email" name="email" id="email" placeholder="Email" required>
+              <input type="tel" name="tel" id="tel" placeholder="tel: XXX XXX XXXX" required>
+              <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Your Message Here..."></textarea>
+              <button type="submit">Send</button>
+          </form>
+          <div class="details">
+              <h3>Contact Us</h3>
+              <div class="contact-items-wrapper">
+                  <div class="contact-items">
+                      <span><i class="fa-solid fa-location-pin fa-xl"></i></span>
+                      <p><strong>Address:</strong><a href="https://goo.gl/maps/uqsJrJ3TqTh6g71W7"> 4359 S Howell Ave Milwaukee, WI 53207 Suite 202 </a></p>
+                  </div>
+                  <div class="contact-items">
+                      <span><i class="fa-solid fa-phone fa-xl"></i></span>
+                      <p><strong>Phone:</strong><a href="tel:414-458-3884"> 414-458-3884</a></p>
+                  </div>
+                  <div class="contact-items">
+                      <span><i class="fa-solid fa-envelope fa-xl"></i></span>
+                      <p><strong>Email:</strong><a href="mailto:info@wiscinjury.com"> info@wiscinjury.com</a> </p>
+                  </div>
+                  <div class="contact-items">
+                      <span><i class="fa-brands fa-twitter fa-xl"></i></span>
+                      <p><strong>Twitter:</strong><a href="https://twitter.com/wi_injurynetwrk"> @wi_injurynetwrk</a></p>
+                  </div>
+              </div>
+
+          </div>
+
+      </div>
+
   </div>
   </body>
 

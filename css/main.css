@@ -122,69 +122,109 @@ hr {
   border-style: solid;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: #11a5df2b; */
+    width: 80vw;
+    padding: 15px;
+}
+
+.contact-info {
+    display: flex;
+    width: 90%;
+}
+
 form {
-  display: block;
-  align-self: center;
-  padding: 15px;
-  max-width: 250px;
-  background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    box-shadow: 0 0 15px grey;
+    text-align: center;
+    color: gray;
+    border-radius: 5px;
+    padding: 7px;
+
+}
+
+.details {
+    /*font-family: 'Ubuntu', sans-serif; */
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background: #9bc4e2;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    box-shadow: 0 0 10px rgb(46, 119, 196);
+
+}
+
+.contact-items{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding-top: 20px;
+    /* margin-left: 5px; */
+}
+
+.contact-items-wrapper{
+    padding: 25px;
+}
+
+.details h3 {
+    text-align: center;
+}
+
+.details p {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.details p a{
+color: white;
+}
+
+.details p a:hover{
+color: rgb(160, 154, 154);
+}
+
+input {
+    margin: 5px 15px;
+    height: 25px;
+}
+
+textarea {
+    height: 150px;
+    margin: 5px 15px;
 }
 
 button {
-  width: 120px;
+    margin: 5px 15px;
+    width: 80px;
+    background: #9bc4e2;
+    padding: 3px 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
 }
 
-.contact-btn {
-  font-size: 14px;
-  border: 1px solid ghostwhite;
-  color: white;
-  background-color: #9bc4e2;
-  padding: 10px 10px;
-  margin: auto;
+@media screen and (max-width:780px) {
+    .contact-info {
+    flex-direction: column;
+    width: 90%;
 }
-
-.contact-btn:hover {
-  background-color: white;
-  color: #9bc4e2;
-  opacity: 1.5;
-  border: 1px solid #9bc4e2;
+form{
+    width: 100%;
+    margin-bottom: 5px;
 }
-
-.contact-btn a:visited {
-  color: white;
+.details{
+    width: 100%;
 }
-
-.contact-btns {
-  margin-left: 25px;
-  padding: 25px 25px;
-  background-color: ghostwhite;
-  display: block;
-}
-
-.contact-btns a {
-  color: #9bc4e2;
-}
-
-input[type=submit] {
-  background-color: #9bc4e2;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: left;
-}
-
-input[type=submit]:hover {
-  background-color: white;
-  color: #9bc4e2;
-  border: 1px solid #9bc4e2;
-}
-
-.contact-ft {
-  font-size: 12px;
-  margin-top: 30px;
-  line-height: 30px;
 }
 
 .servicelist {
