@@ -1,0 +1,259 @@
+/* Wisconsin Injury Network CSS
+   2022 - JD _ v0.0
+   _Color-Theme_
+   Logo: #9bc4e2
+   ghostwhite
+   */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap');
+
+html {
+  background: linear-gradient(ghostwhite,lightsteelblue);
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Roboto Serif', sans-serif;
+  padding: 15px;
+}
+
+.menu {
+  overflow: hidden;
+  background-color: #9bc4e2;
+}
+
+.menu a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.menu a:hover {
+  background-color: white;
+  color: #9bc4e2;
+}
+
+.menu a.active {
+  background-color: ghostwhite;
+  color: #9bc4e2;
+  font-weight: bold;
+}
+
+.menu .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .menu a:not(:first-child) {display: none;}
+  .menu a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu.responsive {position: relative;}
+  .menu.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+body {
+  background-color: white;
+}
+
+div {
+  display: block;
+}
+
+.about {
+  padding: 30px;
+  text-align: left;
+  margin: auto;
+  background-color: ghostwhite;
+}
+
+.services {
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+  background-color: ghostwhite;
+}
+
+.banner {
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  color: #9bc4e2;
+}
+
+.contact {
+  padding-bottom: 50px;
+  padding-left: 5%;
+  padding-top: 30px;
+  display: flex;
+  margin: auto;
+  text-align: left;
+}
+
+h1 {
+  color: #9bc4e2;
+  font-size: 30px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 15px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 15px;
+  text-indent: 20px;
+  margin: auto;
+  word-wrap: normal;
+}
+
+.vl {
+  border-left: 3px solid #9bc4e2;
+  height: 325px;
+  margin-left: 15px;
+}
+
+hr {
+  width: 50%;
+  color: #9bc4e2;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: #11a5df2b; */
+    width: 80vw;
+    padding: 15px;
+}
+
+.contact-info {
+    display: flex;
+    width: 90%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    box-shadow: 0 0 15px grey;
+    text-align: center;
+    color: gray;
+    border-radius: 5px;
+    padding: 7px;
+
+}
+
+.details {
+    /*font-family: 'Ubuntu', sans-serif; */
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background: #9bc4e2;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    box-shadow: 0 0 10px rgb(46, 119, 196);
+
+}
+
+.contact-items{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding-top: 20px;
+    /* margin-left: 5px; */
+}
+
+.contact-items-wrapper{
+    padding: 25px;
+}
+
+.details h3 {
+    text-align: center;
+}
+
+.details p {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.details p a{
+color: white;
+}
+
+.details p a:hover{
+color: rgb(160, 154, 154);
+}
+
+input {
+    margin: 5px 15px;
+    height: 25px;
+}
+
+textarea {
+    height: 150px;
+    margin: 5px 15px;
+}
+
+button {
+    margin: 5px 15px;
+    width: 80px;
+    background: #9bc4e2;
+    padding: 3px 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+@media screen and (max-width:780px) {
+    .contact-info {
+    flex-direction: column;
+    width: 90%;
+}
+form{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.details{
+    width: 100%;
+}
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: #9bc4e2;
+  font-weight: bold;
+  text-shadow: 0 0 2px white;
+  background-color: ghostwhite;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
