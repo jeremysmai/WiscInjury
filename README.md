@@ -9,11 +9,12 @@
 
 ## TODO:
 
-- [ ] Create banner image that rotates after 10s - classy
-- [ ] Create Favicon.png 32x32px
+- [x] Create banner image that rotates after 10s - classy
+- [x] Create Favicon.png 32x32px
 - [x] Finalize Contact Buttons - separate address and phone number
 - [x] Add some filler space on all pages, banners
 - [x] Make contact form functional, use PHP on bluehost server
 - [x] Finalize .cpanel.yml document for server deployment
+- [x] Add photos for looks
 
 JD :pill: Wisconsin Injury Network &copy; 2022
